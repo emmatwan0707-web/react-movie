@@ -18,7 +18,7 @@ const MovieGrid = ({ title, fetchUrl }) => {
     }, [fetchUrl]);
 
     return (
-        <section className="px-8 md:px-16 py-12 bg-black">
+        <section id="now-playing" className="px-8 md:px-16 py-12 bg-black">
             {/* 标题部分 */}
             <div className="flex items-center justify-between mb-8 border-l-4 border-red-600 pl-4">
                 <h2 className="text-3xl font-extrabold text-white tracking-tight uppercase">

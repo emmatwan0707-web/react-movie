@@ -4,7 +4,7 @@ import search from '../assets/search.png';
 
 const Header = () => {
     return (
-        <nav className="w-full bg-black text-white border-b border-gray-800">
+        <nav className="w-full bg-black text-white border-b border-gray-800 sticky top-0 z-50">
 
             <div className="grid grid-cols-3 items-center px-8 py-4">
 
@@ -15,7 +15,9 @@ const Header = () => {
 
 
                 <ul className="flex justify-center gap-10 font-bold text-sm tracking-widest">
-                    <li className="hover:text-blue-400 cursor-pointer text-gray-200 whitespace-nowrap">See a Movie</li>
+                    <li className="hover:text-blue-400 cursor-pointer text-gray-200 whitespace-nowrap">
+                        <a href="#now-playing">See a Movie</a>
+                    </li>
                     <li className="hover:text-blue-400 cursor-pointer text-gray-200 whitespace-nowrap">Find a Theatre</li>
                     <li className="hover:text-blue-400 cursor-pointer text-gray-200 whitespace-nowrap">Food & Drinks</li>
                     <li className="flex items-center gap-1 hover:text-blue-400 cursor-pointer text-gray-200">

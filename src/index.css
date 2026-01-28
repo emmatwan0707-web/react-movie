@@ -2,4 +2,25 @@
 
 @theme {
     --font-cinema: "Montserrat", sans-serif;
+
+    --font-sans: var(--font-cinema);
+}
+
+@layer base {
+    html, body {
+        font-family: var(--font-cinema);
+    }
+
+    input, button, textarea, select {
+        font-family: inherit;
+    }
+}
+
+[id] {
+    scroll-margin-top: 60px;
+}
+
+
+html {
+    scroll-behavior: smooth;
 }
