@@ -9,7 +9,7 @@ const MovieGrid = ({ title, fetchUrl }) => {
             try {
                 const response = await fetch(fetchUrl);
                 const data = await response.json();
-                setMovies(data.results || []);
+                setMovies((data.results || []).slice(0,15));
             } catch (error) {
                 console.error("Fetch error:", error);
             }
