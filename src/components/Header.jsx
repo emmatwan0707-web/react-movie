@@ -10,8 +10,14 @@ const Header = () => {
 
 
                 <div className="flex justify-start">
-                    <img src={logo} alt="Logo" className="h-8 w-auto cursor-pointer" />
-                </div>
+                    <img
+                        src={logo}
+                        alt="Logo"
+                        id="logo-image"
+                        className="h-8 w-auto cursor-pointer"
+                        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                    />
+              </div>
 
 
                 <ul className="flex justify-center gap-10 font-bold text-sm tracking-widest">
@@ -21,7 +27,9 @@ const Header = () => {
                     <li className="hover:text-blue-400 cursor-pointer text-gray-200 whitespace-nowrap">
                         <a href="#find-a-theatre">Find a Theatre</a>
                     </li>
-                    <li className="hover:text-blue-400 cursor-pointer text-gray-200 whitespace-nowrap">Food & Drinks</li>
+                    <li className="hover:text-blue-400 cursor-pointer text-gray-200 whitespace-nowrap">
+                        <a href="#food-and-drinks">Food & Drinks
+                        </a></li>
 
                 </ul>
 

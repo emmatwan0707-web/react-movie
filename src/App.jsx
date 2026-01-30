@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import MovieGrid from './components/MovieGrid';
 import FindATheatre from "./components/FindATheatre.jsx";
+import Food from "./components/Food";
 
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
                 fetchUrl={`https://api.themoviedb.org/3/movie/top_rated?api_key=${API_KEY}`}
             />
             <FindATheatre />
+                <Food/>
             </main>
         </div>
 
