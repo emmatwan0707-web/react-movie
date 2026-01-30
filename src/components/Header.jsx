@@ -10,7 +10,7 @@ const Header = () => {
 
 
                 <div className="flex justify-start">
-                    <img src={logo} alt="AMC Logo" className="h-8 w-auto cursor-pointer" />
+                    <img src={logo} alt="Logo" className="h-8 w-auto cursor-pointer" />
                 </div>
 
 
@@ -18,11 +18,11 @@ const Header = () => {
                     <li className="hover:text-blue-400 cursor-pointer text-gray-200 whitespace-nowrap">
                         <a href="#now-playing">See a Movie</a>
                     </li>
-                    <li className="hover:text-blue-400 cursor-pointer text-gray-200 whitespace-nowrap">Find a Theatre</li>
-                    <li className="hover:text-blue-400 cursor-pointer text-gray-200 whitespace-nowrap">Food & Drinks</li>
-                    <li className="flex items-center gap-1 hover:text-blue-400 cursor-pointer text-gray-200">
-                        More <span className="text-[10px]">▼</span>
+                    <li className="hover:text-blue-400 cursor-pointer text-gray-200 whitespace-nowrap">
+                        <a href="#find-a-theatre">Find a Theatre</a>
                     </li>
+                    <li className="hover:text-blue-400 cursor-pointer text-gray-200 whitespace-nowrap">Food & Drinks</li>
+
                 </ul>
 
 
@@ -31,7 +31,7 @@ const Header = () => {
                         <input
                             type="text"
                             placeholder="Search"
-                            className="bg-gray-900 text-gray-200 text-sm pl-4 pr-10 py-1.5 rounded-md w-64 focus:outline-none border border-transparent focus:border-gray-700"
+                            className="bg-gray-900 text-gray-200 tracking-wide text-sm pl-4 pr-10 py-1.5 rounded-md w-64 focus:outline-none border border-transparent focus:border-gray-700"
                         />
                         <div className="absolute right-3">
                             <img src={search} alt="search" className="h-4 w-4 opacity-70" />

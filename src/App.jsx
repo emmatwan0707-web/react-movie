@@ -2,6 +2,8 @@ import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import MovieGrid from './components/MovieGrid';
+import FindATheatre from "./components/FindATheatre.jsx";
+
 
 const App = () => {
     const API_KEY = 'cc2c024bcd6c0a5f0a726342c6b2b805';
@@ -21,7 +23,7 @@ const App = () => {
                 title="Top Rated"
                 fetchUrl={`https://api.themoviedb.org/3/movie/top_rated?api_key=${API_KEY}`}
             />
-
+            <FindATheatre />
             </main>
         </div>
 
