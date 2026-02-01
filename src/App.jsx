@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import MovieGrid from './components/MovieGrid';
 import FindATheatre from "./components/FindATheatre.jsx";
 import Food from "./components/Food";
+import Footer from './components/Footer';
 
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
             />
             <FindATheatre />
                 <Food/>
+                <Footer/>
             </main>
         </div>
 
