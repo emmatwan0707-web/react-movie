@@ -110,7 +110,7 @@ const categories = [
 
 const FoodAndDrinks = () => {
 
-    const [activeCategory, setActiveCategory] = useState('burger');
+    const [activeCategory, setActiveCategory] = useState('all');
 
     return (
         <section id="food-and-drinks" className="px-8 md:px-16 py-12 bg-black">
