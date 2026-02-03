@@ -3,7 +3,7 @@ import smokeburger from "../assets/smokeburger.png";
 import classicburger from "../assets/classicburger.png";
 import veggieburger from "../assets/veggieburger.png";
 import chickenbreast from "../assets/chickenbreast.png";
-import chickenbites from "../assets/ChickenBites.png";
+import chickenbites from "../assets/chickenbites.png";
 import crinklefries from "../assets/crinklefries.png";
 import cheesefries from "../assets/cheesefries.png";
 import coke from "../assets/coke.png";
